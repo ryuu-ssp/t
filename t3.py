@@ -18,6 +18,9 @@ st.write(df)
 
 st.title('AR & AP DAYS')
 
+
+
+
 # คำนวณค่าเฉลี่ย
 dfarday     = int(df.loc[df['ประเภท']=='ลูกหนี้','ระยะเวลา'].mean().round())
 dfarontime  = int(df.loc[df['ประเภท']=='ลูกหนี้','diff'].mean().round())
